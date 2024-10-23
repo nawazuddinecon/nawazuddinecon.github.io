@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research and Teaching</a></li>
+          <li><a href="Codes.html">Resources</a></li>
+          <li><a href="Blog.html">Blogs</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo"></div> -->
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="index.html">Home</a></li>
+          <li><a href="research.html" onclick="toggleMenu()">Research and Teaching</a></li>
+          <li><a href="Codes.html" onclick="toggleMenu()">Resources</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Blogs</a></li>
+        </div>
+      </div>
+    </nav>
+	  
+      <section id="projects">
+        <p class="section__text__p1"></p>
+        <h1 class="title">Codes and Resources</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Panel_data_image_2.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">PLFS Rotational Panel : Stata Codes</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Nawazuddin-econ/Rotational-Panels-from-PLFS'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/CMIE_CPHS.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Handling CMIE CPHS Data in Stata</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Nawazuddin-econ/Handling-CMIE-CPHS-Data-with-Stata'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/COVID_Stata.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Data Viz Stata: Covid-19 Graphs</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Nawazuddin-econ/Covid_StataGraphs'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/Quantile_Regression.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Quantile Regression & Wage Decomposition at Quantiles</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Nawazuddin-econ/Quantile-Regression-Wage-Decomposition'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/WDI.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Working With World Development Indicator Data in Stata</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Nawazuddin-econ/Extraction-of-World-Development-Indicator-Data'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/matrix.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Mobility Matrix: Highlight the Diagonal (Immobility)</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Nawazuddin-econ/Plot-Matrix-in-R-How-to-Highlight-the-Diagonals'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+            </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+    
